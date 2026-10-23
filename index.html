@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Iron Gym</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <button class="menu-mobile" id="botaoMenu">☰</button>
+        <span class="logo">IRON GYM</span>
+
+        <div class="links">
+            <a href="#inicio">Início</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#planos">Planos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <!-- HERO: TEXTO E IMAGEM -->
+    <section class="hero" id="inicio">
+
+        <div class="hero-conteudo">
+            <h1>Transforme seu corpo fortaleça sua mente</h1>
+
+            <p>Treine com equipamentos modernos, acompanhamento profissional e planos feitos para sua rotina.
+            </p>
+
+            <a href="#planos" class="botao-contato">Conheça nossos planos</a>
+        </div>
+
+        <div class="hero-imagem">
+            <img src="Logo de Gorila Iron Gym.png" alt="Interior de uma academia com equipamentos de musculação">
+        </div>
+
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="secao-beneficios" id="beneficios">
+
+        <h2>Por que treinar na <strong style="color: red;"> Iron Gym? </strong></h2>
+
+        <ul class="beneficios">
+            <li>
+                <h3>Musculação</h3>
+                <p>Treinos para desenvolver força e definição.</p>
+            </li>
+
+            <li>
+                <h3>Acompanhamento profissional</h3>
+                <p>Orientação para treinar com segurança.</p>
+            </li>
+
+            <li>
+                <h3>Equipamentos modernos</h3>
+                <p>Estrutura para você evoluir nos treinos.</p>
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- PLANOS: SEÇÃO SEPARADA -->
+    <section class="secao-planos" id="planos">
+
+        <h2>Nossos Planos</h2>
+        <p>Escolha o plano ideal para seus objetivos.</p>
+
+        <div class="planos">
+
+            <div class="plano">
+                <h3>Básico</h3>
+                <p>R$ 79 /mês</p>
+                <p class="descricao">Ideal para quem está começando.</p>
+                <button data-plano="Básico">Escolher plano</button>
+            </div>
+
+            <div class="plano">
+                <span class="etiqueta">MAIS POPULAR</span>
+                <h3>Premium</h3>
+                <p>R$ 119 /mês</p>
+                <p class="descricao">Mais flexibilidade para evoluir e manter sua rotina.</p>
+                <button data-plano="Premium">Escolher plano</button>
+            </div>
+
+            <div class="plano">
+                <h3>VIP</h3>
+                <p>R$ 159 /mês</p>
+                <p class="descricao">Uma experiência completa para quem busca o máximo.</p>
+
+                <button data-plano="VIP">Escolher plano</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+
+        <h2>Entre em contato</h2>
+        <p>Fale com a nossa equipe e tire suas dúvidas.</p>
+        <form id="formContato">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            >
+            <label for="mensagem">Mensagem</label>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Digite sua mensagem"
+            ></textarea>
+            <button type="submit">Enviar mensagem</button>
+
+        </form>
+
+
+        <a href="https://wa.me/5511999999999" class="botao-contato">
+            Fale Conosco
+        </a>
+
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
